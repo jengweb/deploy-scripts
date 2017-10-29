@@ -12,7 +12,7 @@ BASE="/bitnami/jenkins/1001/deploy-scripts/base"
 DEPLOY_BASEDIR="/bitnami/jenkins/1001/deploys"
 
 #SOURCE MASTER
-SRC_MASTER_DIR="/var/www/html"
+SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
 SRC_MASTER_URL="http://52.221.181.235:8080"
 
 #SERVER
