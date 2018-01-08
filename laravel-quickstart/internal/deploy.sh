@@ -13,10 +13,10 @@ DEPLOY_BASEDIR="/bitnami/jenkins/1001/deploys"
 
 #SOURCE MASTER
 SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
-SRC_MASTER_URL="http://52.221.181.235:8080"
+SRC_MASTER_URL="http://54.255.219.91:8080"
 
 #SERVER
-SERVERS="ubuntu@54.169.218.117"
+SERVERS="ubuntu@13.229.96.47"
 SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
@@ -36,8 +36,8 @@ BUILD_DIR="$DEPLOY_DIR/build"
 FINISH_DIR="$DEPLOY_DIR/finish"
 
 #DOCKER IMAGES
-GIT_IMAGE="3dsinteractive/git-client:1.0"
-COMPOSER_IMAGE="3dsinteractive/composer:7.1"
+GIT_IMAGE="jengweb/git-client:1.0"
+COMPOSER_IMAGE="jengweb/composer:7.1"
 
 source /bitnami/jenkins/1001/deploy-scripts/base/deploy-base.sh
 

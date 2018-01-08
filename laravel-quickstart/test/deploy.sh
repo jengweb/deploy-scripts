@@ -36,8 +36,8 @@ BUILD_DIR="$DEPLOY_DIR/build"
 FINISH_DIR="$DEPLOY_DIR/finish"
 
 #DOCKER IMAGES
-GIT_IMAGE="3dsinteractive/git-client:1.0"
-COMPOSER_IMAGE="3dsinteractive/composer:7.1"
+GIT_IMAGE="jengweb/git-client:1.0"
+COMPOSER_IMAGE="jengweb/composer:7.1"
 
 source /bitnami/jenkins/1001/deploy-scripts/base/deploy-base.sh
 
