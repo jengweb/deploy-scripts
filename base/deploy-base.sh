@@ -197,8 +197,6 @@ function run() {
     #override config in build dir
     rsyncSoft $CONFIG_DIR/config $BUILD_DIR
 
-    composerUpdate
-
     local SOURCE_ZIP="$FINISH_DIR/$PROJECT_NAME-code.tar.gz"
     copyToMaster $BUILD_DIR $SOURCE_ZIP
 
