@@ -12,7 +12,7 @@ sudo rm -Rf $DOCKER_PATH
 sudo mkdir -p $DOCKER_PATH
 sudo tar -xzf $DOCKER_FILE -C $DOCKER_PATH
 sudo chown ubuntu:ubuntu $DOCKER_PATH
-sudo chown -R 1001:1001 $DOCKER_PATH
+sudo chown -R 1001:1001 $DOCKER_PATH/web
 # sudo mkdir -p $DOCKER_PATH/logs
 # sudo chown -R 1001:1001 $DOCKER_PATH/logs
 # sudo chown -R 1001:1001 $DOCKER_PATH/nginx
