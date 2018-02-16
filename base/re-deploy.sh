@@ -12,10 +12,11 @@ sudo rm -Rf $DOCKER_PATH
 sudo mkdir -p $DOCKER_PATH
 sudo tar -xzf $DOCKER_FILE -C $DOCKER_PATH
 sudo chown ubuntu:ubuntu $DOCKER_PATH
-sudo mkdir -p $DOCKER_PATH/logs
-sudo chown -R 1001:1001 $DOCKER_PATH/logs
-sudo chown -R 1001:1001 $DOCKER_PATH/nginx
-sudo chown -R 1001:1001 $DOCKER_PATH/php-fpm
+sudo chown -R 1001:1001 $DOCKER_PATH
+# sudo mkdir -p $DOCKER_PATH/logs
+# sudo chown -R 1001:1001 $DOCKER_PATH/logs
+# sudo chown -R 1001:1001 $DOCKER_PATH/nginx
+# sudo chown -R 1001:1001 $DOCKER_PATH/php-fpm
 
 sudo docker-compose -f $DOCKER_PATH/docker-compose.yml pull
 
